@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./ctyle.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <div class="info">
+                <p>Контактна інформація</p>
+                <label class="name">
+                    Ім'я
+                    <input type="text" id="name">
+                </label>
+                <label class="email">
+                    E-mail
+                    <input type="email" id="email">
+                </label>
+                <label class="tel">
+                    Телефон
+                    <input type="tel" id="tel">
+                </label>
+            </div>
+            <div class="add">
+                <label for="country">Виберіть країну: </label>
+                <select name="country">
+                    <option>Канада</option>
+                    <option>США</option>
+                    <option>Україна</option>
+                    <option>Іспанія</option>
+                    <option>Греція</option>
+                    <option>Франція</option>
+                    <option>Японія</option>
+                    <option>Італія</option>
+                    <option>Португалія</option>
+                    <option>Норвегія</option>
+                </select>
+                <textarea placeholder="Розкажіть про себе"></textarea>
+            </div>
+            <div class="check">
+                <p>Виберіть колір: </p>
+                <div>
+                    <input id="red" type="checkbox" checked>
+                    <label for="red">червоний</label>
+                </div>
+                <div>
+                    <input id="green" type="checkbox">
+                    <label for="green">зелений</label>
+                </div>
+                <div>
+                    <input id="blue" type="checkbox">
+                    <label for="blue">голубий</label>
+                </div>
+            </div>
+            <button type="submit">Відправити</button>
+        </form>
+        <div class="title">
+            <p>Заповніть форму</p>
+        </div>
+    </div>
+</body>
+</html>
